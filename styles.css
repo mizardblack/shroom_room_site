@@ -1,0 +1,30 @@
+body{
+    margin:20%;
+    color: rgb(164, 139, 86);
+    text-align: center;
+}
+
+button {
+    border: 2px solid rgb(164, 139, 86);
+    border-radius:10px;
+    background-color: transparent;
+    cursor: pointer;
+    padding:0 20px;
+    color: rgb(164, 139, 86);
+}
+a {
+    color: rgb(164, 139, 86);
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(164, 139, 86);
+}
+button:hover a{
+    color:white;
+}
+button:active{
+    background-color: rgb(126, 100, 45);
+}
+button:active a{
+    color: white;
+}
