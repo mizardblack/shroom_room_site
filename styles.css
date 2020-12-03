@@ -18,11 +18,9 @@ a {
 }
 button:hover{
     background-color: rgb(164, 139, 86);
-    z-index: -10px;
 }
 button:hover h1{
     color:rgb(255, 250, 235);
-    z-index:10px;
 }
 button:active{
     background-color: rgb(126, 100, 45);
