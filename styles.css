@@ -19,12 +19,20 @@ a {
 button:hover{
     background-color: rgb(164, 139, 86);
 }
+<<<<<<< HEAD
 button:hover h1{
     color:rgb(255, 250, 235);
 }
 button:active{
     background-color: rgb(126, 100, 45);
     color: white;
+=======
+button:hover a{
+    color:white;
+}
+button:active{
+    background-color: rgb(126, 100, 45);
+>>>>>>> c63e503f9752ee7a701e92697e8f4014b9d3410a
 }
 button:active a{
     color: white;
