@@ -1,7 +1,15 @@
-body{
-    margin:20%;
+main{
+    margin-left:20%;
+    margin-right:20%;
+    /* margin-top:none; */
     color: rgb(164, 139, 86);
     text-align: center;
+    font-family: lust, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
 }
 
 button {
@@ -11,29 +19,84 @@ button {
     cursor: pointer;
     padding:0 20px;
     color: rgb(164, 139, 86);
+    transition: background-color 0.3s ease-in;
 }
 a {
     color: rgb(164, 139, 86);
     text-decoration: none;
 }
+
+h1{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1rem;
+
+}
+.welcome{
+    font-size: 6rem;
+    /* padding: 4rem; */
+}
+button{
+    font-family: lust, serif;
+
+    font-weight: 400;
+    
+    font-style: italic;
+}
 button:hover{
     background-color: rgb(164, 139, 86);
 }
-<<<<<<< HEAD
 button:hover h1{
     color:rgb(255, 250, 235);
 }
 button:active{
     background-color: rgb(126, 100, 45);
     color: white;
-=======
-button:hover a{
-    color:white;
-}
-button:active{
-    background-color: rgb(126, 100, 45);
->>>>>>> c63e503f9752ee7a701e92697e8f4014b9d3410a
 }
 button:active a{
     color: white;
 }
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(164, 139, 86);
+}
+
+.navbar a{
+    padding: 2rem;
+    font-size: 3rem;
+    color: white;
+    flex-grow: 1;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    font-family: lust, serif;
+
+font-weight: 400;
+
+font-style: normal;
+}
+
+.navbar a.hover{
+    position: relative;
+}
+
+
+.navbar a.hover:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform:translateY(0px);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar a.hover:hover:before {
+    visibility: visible;
+    transform: translateY(-12px);
+  }
